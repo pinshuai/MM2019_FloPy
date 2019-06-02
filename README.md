@@ -41,10 +41,36 @@ This course will be taught by core member of the FloPy development team, includi
 
 `python installation/test_install.py`
 
+    MODFLOW and More 2019 - FloPy Short Course
+    Checking your python distribution and installed modules.
+      Evaluating system information
+      Your python version:  3.6.8 |Anaconda custom (64-bit)| (default, Dec 29 2018, 19:04:46) 
+    [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)]
+      Your platform is:  darwin
+      Module available for use: numpy
+      Module available for use: matplotlib
+      Module available for use: shutil
+      Module available for use: subprocess
+      Module available for use: pandas
+      Module available for use: platform
+      Module available for use: shapefile
+    flopy is installed in /Users/shua784/anaconda3/lib/python3.6/site-packages/flopy
+      Module available for use: flopy
+    pymake graphing capabilities not available.
+
+      Module available for use: pymake
+      Module available for use: pyemu
+      Module available for use: scipy
+      Testing matplotlib installation
+    Done checking...
+
 - Command to use to update flopy:
 
-```conda install flopy```
+`conda install flopy`
 
 - Command to download executables (i.e. modflow2015) to run simulaitons
 
-```python ../bin/download_executables.py```
+`python ../bin/download_executables.py`
+
+
+
