@@ -31,3 +31,20 @@ This course will be taught by core member of the FloPy development team, includi
 * Joe Hughes
 *	Chris Langevin
 *	Jeremy White
+
+## Instructions
+- install necessary packages
+
+`python installation/install_packages.py`
+
+- test installed packages
+
+`python installation/test_install.py`
+
+- Command to use to update flopy:
+
+```conda install flopy```
+
+- Command to download executables (i.e. modflow2015) to run simulaitons
+
+```python ../bin/download_executables.py```
